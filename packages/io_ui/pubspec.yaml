@@ -1,0 +1,60 @@
+name: io_ui
+description: A new Flutter package project.
+version: 0.0.1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logger: ^2.0.2+1
+
+  # UI
+  flutter_svg: ^2.0.7
+  flutter_gen: ^5.3.2
+  dropdown_button2: ^2.3.7
+
+  # Utils
+  intl: ^0.19.0
+  scroll_to_index: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  build_runner:
+  flutter_gen_runner:
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
+
+flutter:
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Raleway-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Raleway-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Raleway-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Raleway-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Raleway-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Raleway-Black.ttf
+          weight: 900
